@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+   
+    
+   
+}
+
+.x{
+    color: aliceblue;
+}
+
+.nav-bar .fixed-top{
+    box-shadow: 0 0.125rem rgb(0 0 0/5%);
+}
+
+.nav-bar .navbar-nav .nav-item .nav-link{
+    color: black;
+    text-align: center;
+    padding: 0.5rem 1rem;
+
+ 
+}
+
+.nav-bar .navbar-nav .nav-item .nav-link:hover,
+.nav-bar .navbar-nav .nav-item .nav-link.active{
+   color: rgb(255, 17, 0);
+}
+.x .y:hover,
+.x .y.nav-link.active
+{
+  color: rgb(252, 5, 5); 
+}
+.A{
+   
+    height: 100%;
+   
+}
+
+.B{
+   
+    height: 100%;
+}
+   
+
+.C{
+   
+    height: 100%;
+   
+}
+.D{
+   
+    height: 100%;
+
+}
+
+
+.sale{
+   
+    color: red;
+    padding-left: 10px;
+    font-size: 10px;
+    position: relative;
+    animation: sale 1s infinite;
+}
+@keyframes sale {
+    from{
+      color: rgb(255, 0, 0);
+      font-size: 15px;
+    }
+}
+
+
+.checked {
+    color: orange;
+   
+  }
+
+  .off{
+    margin-bottom: 10px;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .line {
+    flex: 1;
+    border: none; 
+    border-top: 1px solid black; 
+  }
+  
+  .text {
+    padding: 0 10px; 
+    color: black; 
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .time-flex{
+    width: 100%;
+    background-color: rgb(231, 7, 7);
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+  }
+
+  #time{
+  
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+   
+  }
+
+ 
+  .txt{
+    color: blue;
+  }
+
+
+  @media screen and (min-width: 800px) {
+    #time{
+        font-size: 50px;
+    font-weight: 700;
+    }
+  }
+
+  
+  .gototop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    bottom: 40px;
+    right: 30px;
+   font-size: 25px;
+   text-align: center;
+   line-height: 50px;
+   color: White;
+   border-radius: 5px;
+   box-shadow: 0.5px 0.5px 1px 1px rgb(62, 61, 61);
+  }
+
+
+  @media screen and (max-width: 400px) {
+
+    .gototop{
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      background-color: blue;
+      bottom: 20px;
+      right: 30px;
+     font-size: 25px;
+     text-align: center;
+     line-height: 20px;
+     color: White;
+     border-radius: 5px;
+     box-shadow: 0.5px 0.5px 1px 1px rgb(62, 61, 61);
+    }
+  
+   
+  }
+
+
+
+.fromx{
+    background-color: black;
+  }

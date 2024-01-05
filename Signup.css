@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: sans-serif;
+}
+ 
+
+
+
+
+.wrapper{
+    background-image: url(bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+   
+}
+
+.wrapper input:focus {
+    box-shadow: none;
+}
+
+.wrapper .submit-btn {
+    padding: 15px;
+    font-weight:600;
+}
+
+.wrapper .login-with{
+   
+    font-weight: 500;
+    font-size: 15px;
+
+    transition: 0.3s ease-in-out;
+}
+
